@@ -51,7 +51,7 @@ public class TwitchStatusPlaceholder extends PlaceholderExpansion {
             // Ottieni lo stato live del giocatore
             LivePlayer livePlayer = plugin.getLivePlayer(player);
             if (livePlayer != null && livePlayer.isLive()) {
-                return ChatColor.LIGHT_PURPLE + "[Live]";
+                return "ĕ ";
             } else {
                 return "";
             }
